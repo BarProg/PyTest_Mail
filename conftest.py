@@ -6,9 +6,3 @@ def values_of_bonus():
              'Dave':72000, 'Kris':32500, 'Jane':5000}
     return sum(bonus.values())
 
-
-@pytest.fixture
-def temp():
-    number = 38
-    return number
-
